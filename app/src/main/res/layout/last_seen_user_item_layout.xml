@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:scaleType="centerInside"
+        android:id="@+id/userImg"
+        app:cardCornerRadius="10dp"
+        android:foreground="@drawable/img1"
+        android:layout_gravity="center"
+        android:layout_width="103dp"
+        android:layout_height="103dp"
+        android:elevation="0dp"
+        android:src="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jame Mich"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/sofia_pro_semi_bold_az"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12 Mins ago"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+</LinearLayout>
